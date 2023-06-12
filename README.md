@@ -152,7 +152,7 @@ aws ec2 create-snapshot --volume-id volume_id
 donde volume_id es el id obtenido del paso 1. ¿Cuál es el resultado? Puedes verificar el estado de tu instantánea usando las siguientes instrucciones.
 
 aws ec2 describe-snapshots --snapshot-id snapshot_id
-**![](https://lh6.googleusercontent.com/zOwAJv88Z8AFGQU1UuwNOg_Gtn_kfQe3T_Zu_zZx7_rpCTFLrxXb83Wk-vrnORK4FiDVHK2denf5_72EzSffnPuT9x2CpdpUhlDM1_x1KaQYwsD5afKhx1XR0wyrSdPqABfrimEEo7_FCG2LH2et9vo)**
+**![](https://lh6.googleusercontent.com/NJMRy_VoeNf6evo0FR6ehNiA0k1OvKKZGqig8rW-EmzSgFgksNLlfNYmGPErmGCsp2o5_BZr5_xl-2VUe3nNSxXPeAwbJ6AqbmOeDFHL-jS3wvFnsfSVW-GF9zUvpGagFstjlr-ffb6OzvDO_6PvSX0)**
 
 El snapshot_id debe ser parte de la salida de la instrucción de creación de instantáneas que acaba de ejecutar. ¿Cuál es el resultado del comando describe-snapshot? Continúa repitiendo este comando hasta que vea que el estado de la instantánea cambia a "completado", lo que significa que se ha realizado una copia de seguridad del volumen.
 
